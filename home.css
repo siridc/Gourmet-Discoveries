@@ -1,0 +1,140 @@
+#heather {
+   position: fixed;
+   top: 0;
+   right: 0;
+   z-index: 100; /*para di nalusot yung mga elements sa header kapag nagsscroll si user*/
+   background-color: #F5F5EF;
+   width: 100%;
+}
+
+a {
+   font-family: "Roboto Slab", serif;
+   font-optical-sizing: auto;
+   font-weight: 900;
+   font-style: normal;
+   transition: all 300ms ease;
+}
+
+nav, #navLinks {
+   display: flex;
+}
+
+nav {
+   align-items: center;
+}
+
+#navLinks {
+   list-style: none;
+   gap: 2rem;
+   font-size: 1rem; /*1 rem =16px*/
+   justify-content: flex-end;
+}
+
+a {
+   text-decoration: none;
+   color: white;
+   display: block;
+   padding: 15px;
+   font-size: 1rem;
+   color: #304254;
+   
+}
+
+a:hover {
+   color: red;
+}
+
+#home {
+   padding-top: 100px;
+   background-image: url(Pictures/HomePic.png);
+   background-attachment: initial;
+   background-repeat: no-repeat;
+   background-size: 1550px 750px;
+} 
+
+#name {
+   font: normal 400 6.25rem "Hammersmith One", serif;
+   display: flex;
+   color: white;
+   margin-left: 160px;
+   letter-spacing: 5px;
+}
+
+#name:hover {
+   cursor: default;
+}
+
+#mabuhay {
+   font: normal 400 5.8rem "DM Serif Display", serif;
+   color: white;
+   margin-top: 50px;
+   margin-left: 210px;
+}
+
+.mabuhay p {
+   font: normal 400 5.8rem "DM Serif Display", serif;
+   color: white;
+   margin-top: 0;
+   margin-left: 210px;
+}
+
+/*CATEGORY*/
+
+#category {
+   margin-top: 380px;
+   /*background-color: #F5F5EF;
+   background-size: 1550px 750px; */
+}
+
+#sel {
+  font: normal 600 5rem "Dancing Script", cursive;
+  color: #505316;
+  margin-left: 180px;
+  margin-top: 380px;
+}
+
+#wif {
+   font: normal 500 1.7rem "Solway", serif;
+   text-align: right;
+   margin-right: 90px;
+   letter-spacing: 5px;
+   color: #493535;
+   font-weight: bold;
+}
+
+#dishes {
+   position: relative;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   left: 60px;
+   margin: 0 50px;
+   /* column-gap: 15px;
+   row-gap: 40px; 
+   right: 100px;
+   /* justify-content: space-around; 
+   right: 100px;
+    margin: 0 40px; 
+   background-color: #F5F5EF;*/
+}
+
+#md img, #dishes img {
+   display: inline;
+   width: 260px;
+   height: 390px;
+   border-radius: 20px;
+   margin-top: 20px;
+   /* position: absolute; */
+}
+
+/*FOR NAME OF EACH FOOD*/
+.neym {
+   font: normal 400 1.5rem "Gamja Flower", serif;
+   /*font-weight: bold;*/
+   text-align: center;
+   background-color: #FF5757;
+   margin: 3px 72px;
+   padding: 7px 15px;
+   position: absolute;
+   top: 385px;
+   border-radius: 5px;
+}

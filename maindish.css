@@ -1,0 +1,110 @@
+#mainDish {
+   margin-top: 100px;
+}
+
+.heder {
+   font: normal 600 6rem "Dancing Script", cursive;
+   color: #505316;
+   text-align: center;
+}
+
+.caption {
+   font: normal 500 1.7rem "Solway", serif;
+   text-align: center;
+   margin-right: 90px;
+   letter-spacing: 5px;
+   color: #493535;
+   font-weight: bold;
+}
+
+#md {
+   position: relative;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+   left: 25px;
+}
+
+/* #adobo-section {
+   display: flex;
+   align-items: flex-start;
+   gap: 20px;
+}
+
+.recipe-photo {
+   display: inline;
+
+}
+
+.recipe-name {
+   color: #597cff;
+   font: normal 500 5rem "DM Serif Display", serif;
+   text-align: right;
+   position: relative;
+   margin-top: 210px;
+   margin-left: 60px;
+   margin-right: 500px;
+}
+
+.history {
+   color: black;
+   font: normal 500 5rem "Fraunces", serif;
+   text-align: left;
+   position: relative;
+   margin-top: 210px;
+}
+
+.descriptionHistory {
+   
+} */
+
+.container {
+   display: flex;
+   align-items: flex-start;
+   justify-content: flex-start;
+   padding: 150px;
+}
+
+.recipe-photo {
+   width: 550px;
+   height: 673px;
+}
+
+.text-section {
+   flex: 1;
+   padding-left: 20px;
+}
+
+.title {
+   font-size: 5rem;
+   font-weight: bold;
+   /* padding-bottom: 0;
+   margin-bottom:0; */
+}
+
+aside {
+   
+}
+
+.adobo {
+   display: grid;
+   font: normal 500 6rem "DM Serif Display", serif;
+   color: #597cff;
+   margin-bottom: 0;
+}
+
+.history {
+   margin-top: 0;
+   padding-left: 150px;
+
+   display: block;
+   font: normal 500 2.5rem "Fraunces", serif;
+   letter-spacing: 5px;
+   margin-bottom: 25px;
+}
+
+.descriptionHistory {
+   margin-left: 30px;
+   font: normal 400 18px "Solway", serif;
+   line-height: 1.5;
+   text-align: justify;
+}
