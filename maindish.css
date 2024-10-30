@@ -24,6 +24,84 @@
    left: 25px;
 }
 
+.mdRep {
+   background-color: #ffd230;
+   margin: 250px;
+   justify-items: center;
+   padding: 150px;
+   height: 1800px;
+ }
+
+ .whitebg{
+   background-color: rgb(249, 242, 242);
+   height: 1750px;
+   width: 990px;
+   left: 262px;
+   position: absolute;
+ }
+ 
+
+
+ .bungee-regular {
+   font-family: "Bungee", serif;
+   font-weight: 500;
+   font-style: normal;
+   text-align: center;
+   position: relative;
+   top: -30px;
+   font-size: 36.5px;
+ }
+
+ .whitebg p{
+   font: normal 400 2rem "Port Lligat Slab", serif;
+   padding: 6.2rem 0 0 6.25rem;
+
+ }
+
+ .whitebg h2{
+   font: normal 400 2rem "Port Lligat Slab", serif;
+   padding: 6.2rem 0 0 6.25rem;
+
+ }
+
+.ingredients {
+   display: flex;
+   flex-direction: column;
+   padding: 2rem 0 0 12rem ;
+   font: normal 1.5rem "Open Sans", "serif";
+
+}
+
+.top-photo img {
+   margin-left: 660px;
+   margin-top: 50px;
+   border-radius: 100%;
+   width: 200px;
+   height: 200px;
+   position: absolute;
+}
+
+.vid{
+   justify-content: center;
+   margin:50px 230px 0 160px ;
+
+}
+
+.steplist ul{
+   list-style: none; 
+   font: normal 400 1.3rem "Oswald", serif;
+   margin: 35px 0 10px 175px;
+}
+.steplist p{
+   list-style: none;
+   align-items: justify; 
+   font: normal 400 1rem "Arapey", serif;
+   margin: -85px 0 10px -100px;
+   width:660px
+   
+}
+
+
 /* #adobo-section {
    display: flex;
    align-items: flex-start;
@@ -61,7 +139,7 @@
    display: flex;
    align-items: flex-start;
    justify-content: flex-start;
-   padding: 150px;
+   margin: 100px 200px 100px 150px;
 }
 
 .recipe-photo {
@@ -74,6 +152,8 @@
    padding-left: 20px;
 }
 
+
+
 .title {
    font-size: 5rem;
    font-weight: bold;
@@ -81,30 +161,31 @@
    margin-bottom:0; */
 }
 
-aside {
-   
-}
-
-.adobo {
+.text-section h1 {
    display: grid;
-   font: normal 500 6rem "DM Serif Display", serif;
+   font: normal 500 5.5rem "DM Serif Display", serif;
    color: #597cff;
-   margin-bottom: 0;
+   margin: 50px 0 -10px 60px;
 }
 
-.history {
-   margin-top: 0;
+.text-section h2 {
    padding-left: 150px;
-
    display: block;
    font: normal 500 2.5rem "Fraunces", serif;
+   margin-left: 80px;
    letter-spacing: 5px;
-   margin-bottom: 25px;
+   margin-bottom: 35px;
 }
 
-.descriptionHistory {
-   margin-left: 30px;
-   font: normal 400 18px "Solway", serif;
-   line-height: 1.5;
+.text-section p {
+   margin: 20px 0 0 30px;
+   font: normal 400 17px "Solway", serif;
+   line-height: 1.1;
+   letter-spacing: 1.5px;
    text-align: justify;
+}
+
+.ingredients {
+   display: flex;
+   justify-content: space-between;
 }

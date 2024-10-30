@@ -36,22 +36,30 @@
 
                <div id="dishes">
                   <div>
-                     <img src="Pictures/fCategory/main dish.jpg" alt="main dish" />
+                     <a href="#mainDish">
+                        <img src="Pictures/fCategory/main dish.jpg" alt="main dish"/>
+                     </a>
                      <div class="neym">Main Dish</div>
                   </div>
 
                   <div>
-                     <img src="Pictures/fCategory/dessert.jpg" alt="dessert"/>
+                     <a href="#dessert">
+                        <img src="Pictures/fCategory/dessert.jpg" alt="dessert"/>
+                     </a>
                      <div class="neym">Dessert</div>
                   </div>
 
                   <div>
-                     <img src="Pictures/fCategory/streetfood.jpg" alt="streetfood"/>
+                     <a href="#streetfood">
+                        <img src="Pictures/fCategory/streetfood.jpg" alt="streetfood"/>
+                     </a>
                      <div class="neym">Streetfood</div>
                   </div>
                   
                   <div>
-                     <img src="Pictures/fCategory/beverage.jpg" alt="beverage"/>
+                     <a href="#beverage">
+                        <img src="Pictures/fCategory/beverage.jpg" alt="beverage"/>
+                     </a>
                      <div class="neym">Beverage</div>
                   </div>
                </div>
@@ -59,33 +67,43 @@
          </section>
 
 <!--MAIN DISH page-->
-         <section id="mainDish">
-            <h2 class="heder">Main Dish</h2>
+         <section id="mainDish"> <!--heto magkakaiba sila id: mainDish, dessert, streetfood, and beverage-->
+            <h2 class="heder">Main Dish</h2> <!--"heder" & "caption" magkakapareho na sila ng class name since pareho lang din design from maindish to beverage-->
             <h4 class="caption">WITH AUTHENTIC FILIPINO RECIPES ALONG WITH THEIR HISTORY</h4>
 
-            <div id="md">
+            <div id="md"> <!--heto magkakaiba sila id: md, des, sf, and bev-->
                <div>
-                  <img src="Pictures/main dish/adobo.jpg" alt="adobo"/>
-                  <div class="neym">Adobo</div>
+                  <a href="#adobo-section">
+                     <img src="Pictures/main dish/adobo.jpg" alt="adobo"/>
+                  </a>
+                  <div class="neym">Adobo</div> <!--"neym": magkakapareho na sila ng class name since pareho lang din design from maindish to beverage-->
                </div>
 
                <div>
-                  <img src="Pictures/main dish/sinigang.jpg" alt="sinigang"/>
+                  <a href="#sinigang-section">
+                     <img src="Pictures/main dish/sinigang.jpg" alt="sinigang"/>
+                  </a>
                   <div class="neym">Sinigang</div>
                </div>
 
                <div>
-                  <img src="Pictures/main dish/kare-kare.jpg" alt="kare-kare"/>
+                  <a href="#kareKare-section">
+                     <img src="Pictures/main dish/kare-kare.jpg" alt="kare-kare"/>
+                  </a>
                   <div class="neym">Kare-Kare</div>
                </div>
 
                <div>
-                  <img src="Pictures/main dish/tinola.jpg" alt="tinola"/>
+                  <a href="#tinola-section">
+                     <img src="Pictures/main dish/tinola.jpg" alt="tinola"/>
+                  </a>
                   <div class="neym">Tinola</div>
                </div>
 
                <div>
-                  <img src="Pictures/main dish/lechon kawali.jpg" alt="lechon kawali"/>
+                  <a href="#lechonKawali-section">
+                     <img src="Pictures/main dish/lechon kawali.jpg" alt="lechon kawali"/>
+                  </a>
                   <div class="neym">Lechon Kawali</div>
                </div>
             </div>
@@ -95,15 +113,112 @@
          <section id="adobo-section">
             <div class="container">
                <img class="recipe-photo" src="Pictures/main dish/adobo.jpg" alt="adobo"/>
-            
                <div class="text-section">
-                     <div class="adobo">Adobo</div><br>
-                     <div class="history">HISTORY</div>
-                  <div class="descriptionHistory">
+                  <h1>Adobo</h1>
+                  <h2>HISTORY</h2>
+                  <p>
                      Adobo is a dish of protein braised in vinegar, and spiced with garlic and black peppercorns. The term “adobo” itself comes from the Spanish word “adobar,” which means to marinate or pickle. In pre-colonial times when early Filipinos used vinegar and salt to preserve. Adobo has evolved significantly over the centuries, influenced by various cultures that interacted with the Philippines.
-                     <br> <br>The Chinese traders introduced soy sauce, which became a common ingredient in many adobo recipes, replacing or complementing the use of salt. The Spanish influence is also evident in the use of ingredients like garlic and bay leaves. Adobo is not a single recipe but a collection of various regional adaptations. Each region in the Philippines has its own version of adobo, reflecting local tastes and available ingredients.
-                  </div>
+                  </p>
+                  <p>
+                     The Chinese traders introduced soy sauce, which became a common ingredient in many adobo recipes, replacing or complementing the use of salt. The Spanish influence is also evident in the use of ingredients like garlic and bay leaves. Adobo is not a single recipe but a collection of various regional adaptations. Each region in the Philippines has its own version of adobo, reflecting local tastes and available ingredients.
+                  </p>
+
                </div>
+            </div>
+         </section>
+
+
+<!--MAIN DISH RECIPE AND PROCEDURE-->
+
+         <section>
+            <div class="top-photo">
+               <img src="Pictures/main dish/adobo.jpg"/>
+            </div>
+         </section>
+
+         <section>
+            <div class="mdRep">
+               <h1 class="bungee-regular">Adobo</h1>
+
+               <div class="whitebg">
+                  <p>Ingredients</p>
+                  <div class="ingredients">
+                     <div>
+                        <input type="checkbox" id="pork"> Pork belly
+                     </div>
+                     <div>
+                        <input type="checkbox" id="garlic"> Garlic
+                     </div>
+                     <div>
+                        <input type="checkbox" id="dbl"> Dried bay leaves
+                     </div>
+                     <div>
+                        <input type="checkbox" id="vgar"> Vinegar
+                     </div>
+                     <div>
+                        <input type="checkbox" id="soysauce"> Soy Sauce
+                     </div>
+                     <div>
+                        <input type="checkbox" id="ppcorn"> Peppercorn
+                     </div>
+                     <div> 
+                        <input type="checkbox" id="onyon"> Onion
+                     </div>
+                     <div>
+                        <input type="checkbox" id="tubig"> Water
+                     </div>
+                     <div>
+                        <input type="checkbox" id="mantika"> Oil 
+                     </div>
+                     <div>
+                        <input type="checkbox" id="sgr"> Sugar
+                     </div>
+                     <div>
+                        <input type="checkbox" id="stl"> Salt to taste
+                     </div>
+            </div>
+            <div>
+               <h2> Procedure</h2>
+               <div class="vid">
+               <iframe width="660" height="415" src="https://www.youtube.com/embed/OTGASYe7hQk?si=pyk6pXhiKuRVx-JB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+
+            <div class=" steplist">
+               <ul>
+                  <li>Step 1</li>
+                        <p>Heat vegetable oil in a large skillet over medium-high heat. Cook pork pieces until golden brown, 2 to 3 minutes per side. Transfer pork to a plate and set aside.</p> 
+                  <li>Step 2</li>
+                     <p>Add onion and garlic to the skillet; cook until softened and brown, about 3 to 5 minutes.</p>     
+                  <li>Step 3</li>
+                     <p>Pour in soy sauce and vinegar and season with garlic powder, black pepper, and bay leaf.
+                     </p> 
+                  <li>Step 4</li>
+                     <p>Return chicken to pan, increase heat to high, and bring to a boil. Reduce heat to medium-low, cover, and simmer until chicken is tender and cooked through, 35 to 40 minutes.</p> 
+               </ul>
+            </div>
+
+
+         </section>
+
+<!--search kayo sa yt if paano gumawa ng object(or kung ano man tawag doon)
+   to reuse code para ma-lessen line of codes natin-->
+   
+<!--SINIGANG HISTORY-->
+         <section id="sinigang-section">
+            <div class="container">
+               <img class="recipe-photo" src="Pictures/main dish/sinigang.jpg" alt="sinigang"/>
+               <div class="text-section">
+                  <h1>Sinigang</h1>
+                  <h2>HISTORY</h2>
+                  <p>
+                     Sinigang, a popular dish in the Philippines, has its roots in pre-colonial times when souring agents like tamarind, kamias, and guava were used in cooking. Originating from the Tagalog word "singang," meaning "stew," sinigang has evolved into a beloved dish with regional variations. It is an integral part of Filipino culture, often served during the rainy season to warm the body and soul. 
+                  </p>
+                  <p>
+                     It is also served during special occasions like birthdays, weddings, and other celebrations, and is a hearty and comforting meal for guests.
+                  </p>
+
+               </div>
+            </div>
          </section>
 
       </main>

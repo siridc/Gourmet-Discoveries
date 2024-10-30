@@ -53,11 +53,12 @@ a:hover {
 } 
 
 #name {
-   font: normal 400 6.25rem "Hammersmith One", serif;
+   font: normal 400 6rem "Hammersmith One", serif;
    display: flex;
    color: white;
    margin-left: 160px;
-   letter-spacing: 5px;
+   letter-spacing: 3px;
+   margin-top: 10px;
 }
 
 #name:hover {
