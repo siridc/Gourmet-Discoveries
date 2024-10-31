@@ -1,6 +1,7 @@
+/*FOR LINKS*/
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-   anchor.addEventListener('click', function (e) {
-       e.preventDefault();
+   anchor.addEventListener('click', function (d) {
+       d.preventDefault();
 
        const targetId = this.getAttribute('href').substring(1);
        const targetElement = document.getElementById(targetId);
