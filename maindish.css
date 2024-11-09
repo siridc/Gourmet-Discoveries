@@ -1,191 +1,139 @@
-#mainDish {
-   margin-top: 100px;
-}
+   #mainDish {
+      margin-top: 100px;
+   }
 
-.heder {
-   font: normal 600 6rem "Dancing Script", cursive;
-   color: #505316;
-   text-align: center;
-}
+   .heder {
+      font: normal 600 6rem "Dancing Script", cursive;
+      color: #505316;
+      text-align: center;
+   }
 
-.caption {
-   font: normal 500 1.7rem "Solway", serif;
-   text-align: center;
-   margin-right: 90px;
-   letter-spacing: 5px;
-   color: #493535;
-   font-weight: bold;
-}
+   .caption {
+      font: normal 500 1.7rem "Solway", serif;
+      text-align: center;
+      margin-right: 90px;
+      letter-spacing: 5px;
+      color: #493535;
+      font-weight: bold;
+   }
 
-#md {
-   position: relative;
-   display: grid;
-   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-   left: 25px;
-}
+   #md {
+      position: relative;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      left: 25px;
+   }
 
-.mdRep {
-   background-color: #ffd230;
-   margin: 250px;
-   justify-items: center;
-   padding: 150px;
-   height: 1800px;
- }
+   .container {
+      display: flex;
+      align-items: flex-start;
+      justify-content: flex-start;
+      margin: 100px 200px 100px 150px;
+   }
 
- .whitebg{
-   background-color: rgb(249, 242, 242);
-   height: 1750px;
-   width: 990px;
-   left: 262px;
-   position: absolute;
- }
- 
+   .recipe-photo {
+      width: 550px;
+      height: 673px;
+   }
 
+   .text-section {
+      flex: 1;
+      padding-left: 20px;
+   }
 
- .bungee-regular {
-   font-family: "Bungee", serif;
-   font-weight: 500;
-   font-style: normal;
-   text-align: center;
-   position: relative;
-   top: -30px;
-   font-size: 36.5px;
- }
+   .text-section h1 {
+      display: grid;
+      font: normal 500 5.5rem "DM Serif Display", serif;
+      color: #597cff;
+      margin: 50px 0 -10px 60px;
+   }
 
- .whitebg p{
-   font: normal 400 2rem "Port Lligat Slab", serif;
-   padding: 6.2rem 0 0 6.25rem;
+   .text-section h2 {
+      padding-left: 150px;
+      display: block;
+      font: normal 500 2.5rem "Fraunces", serif;
+      margin-left: 80px;
+      letter-spacing: 5px;
+      margin-bottom: 35px;
+   }
 
- }
+   .text-section p {
+      margin: 20px 0 0 30px;
+      font: normal 400 17px "Solway", serif;
+      line-height: 1.1;
+      letter-spacing: 1.5px;
+      text-align: justify;
+   }
 
- .whitebg h2{
-   font: normal 400 2rem "Port Lligat Slab", serif;
-   padding: 6.2rem 0 0 6.25rem;
+   .mdRep {
+      background-color: #ffd230;
+      margin: 250px;
+      justify-items: center;
+      padding: 150px;
+      height: 1800px;
+   }
 
- }
-
-.ingredients {
-   display: flex;
-   flex-direction: column;
-   padding: 2rem 0 0 12rem ;
-   font: normal 1.5rem "Open Sans", "serif";
-
-}
-
-.top-photo img {
-   margin-left: 660px;
-   margin-top: 50px;
-   border-radius: 100%;
-   width: 200px;
-   height: 200px;
-   position: absolute;
-}
-
-.vid{
-   justify-content: center;
-   margin:50px 230px 0 160px ;
-
-}
-
-.steplist ul{
-   list-style: none; 
-   font: normal 400 1.3rem "Oswald", serif;
-   margin: 35px 0 10px 175px;
-}
-.steplist p{
-   list-style: none;
-   align-items: justify; 
-   font: normal 400 1rem "Arapey", serif;
-   margin: -85px 0 10px -100px;
-   width:660px
+   .whitebg{
+      background-color: rgb(249, 242, 242);
+      height: 1750px;
+      width: 990px;
+      left: 262px;
+      position: absolute;
+   }
    
-}
+   .bungee-regular {
+      font-family: "Bungee", serif;
+      font-weight: 500;
+      font-style: normal;
+      text-align: center;
+      position: relative;
+      top: -30px;
+      font-size: 36.5px;
+   }
 
+   .whitebg p{
+      font: normal 400 2rem "Port Lligat Slab", serif;
+      padding: 6.2rem 0 0 6.25rem;
 
-/* #adobo-section {
-   display: flex;
-   align-items: flex-start;
-   gap: 20px;
-}
+   }
 
-.recipe-photo {
-   display: inline;
+   .whitebg h2{
+      font: normal 400 2rem "Port Lligat Slab", serif;
+      padding: 6.2rem 0 0 6.25rem;
 
-}
+   }
 
-.recipe-name {
-   color: #597cff;
-   font: normal 500 5rem "DM Serif Display", serif;
-   text-align: right;
-   position: relative;
-   margin-top: 210px;
-   margin-left: 60px;
-   margin-right: 500px;
-}
+   .top-photo img {
+      margin-left: 660px;
+      margin-top: 50px;
+      border-radius: 100%;
+      width: 200px;
+      height: 200px;
+      position: absolute;
+   }
 
-.history {
-   color: black;
-   font: normal 500 5rem "Fraunces", serif;
-   text-align: left;
-   position: relative;
-   margin-top: 210px;
-}
+   .ingredients {
+      display: flex;
+      flex-direction: column;
+      padding: 2rem 0 0 12rem ;
+      font: normal 1.5rem "Open Sans", "serif";
+   }
 
-.descriptionHistory {
-   
-} */
+   .vid{
+      justify-content: center;
+      margin:50px 230px 0 160px ;
+   }
 
-.container {
-   display: flex;
-   align-items: flex-start;
-   justify-content: flex-start;
-   margin: 100px 200px 100px 150px;
-}
+   .steplist ul{
+      list-style: none; 
+      font: normal 400 1.2rem "Oswald", serif;
+      margin: 35px 0 10px 175px;
+   }
 
-.recipe-photo {
-   width: 550px;
-   height: 673px;
-}
-
-.text-section {
-   flex: 1;
-   padding-left: 20px;
-}
-
-
-
-.title {
-   font-size: 5rem;
-   font-weight: bold;
-   /* padding-bottom: 0;
-   margin-bottom:0; */
-}
-
-.text-section h1 {
-   display: grid;
-   font: normal 500 5.5rem "DM Serif Display", serif;
-   color: #597cff;
-   margin: 50px 0 -10px 60px;
-}
-
-.text-section h2 {
-   padding-left: 150px;
-   display: block;
-   font: normal 500 2.5rem "Fraunces", serif;
-   margin-left: 80px;
-   letter-spacing: 5px;
-   margin-bottom: 35px;
-}
-
-.text-section p {
-   margin: 20px 0 0 30px;
-   font: normal 400 17px "Solway", serif;
-   line-height: 1.1;
-   letter-spacing: 1.5px;
-   text-align: justify;
-}
-
-.ingredients {
-   display: flex;
-   justify-content: space-between;
-}
+   .steplist p{
+      list-style: none;
+      text-align: justify; 
+      font: normal 400 0.9rem "Arapey", serif;
+      margin: -85px 0 10px -100px;
+      width:660px
+   }
