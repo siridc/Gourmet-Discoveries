@@ -1,24 +1,19 @@
 /*FOR LINKS*/
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-   anchor.addEventListener('click', function (d) {
-       d.preventDefault();
+document.addEventListener('DOMContentLoaded', () => {
+    // Smooth scrolling for navigation links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            const targetElement = document.querySelector(this.getAttribute('href'));
+            const headerHeight = document.querySelector('nav').offsetHeight;
+            const targetPosition = targetElement.getBoundingClientRect().top + window.pageYOffset - headerHeight;
 
-       const targetId = this.getAttribute('href').substring(1);
-       const targetElement = document.getElementById(targetId);
-       
-       if (targetElement) {
-           window.location.hash = targetId; //updates the url 
-
-           const headerHeight = document.querySelector('#heather').offsetHeight;
-           const targetPosition = targetElement.getBoundingClientRect().top + window.pageYOffset - headerHeight;
-
-           window.scrollTo({
-               top: targetPosition,
-               behavior: 'smooth'
-           });
-       }
-   });
-});
+            window.scrollTo({
+                top: targetPosition,
+                behavior: 'smooth'
+            });
+        });
+    });
 
 // MAIN DISH
     fetch('Main Dish/mainDishPage.html')
@@ -69,3 +64,143 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         .then(data => {
             document.getElementById('dessert').innerHTML = data;
     });
+
+    //bibingka-section
+    fetch('Dessert/bibingka.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('bibingka-section').innerHTML = data;
+    });
+
+    // putoBumbong-section
+    fetch('Dessert/putoBumbong.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('putoBumbong-section').innerHTML = data;
+    });
+
+    // halo-halo ection
+    fetch('Dessert/haloHalo.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('haloHalo-section').innerHTML = data;
+    });
+
+    // ubeHalaya-section
+    fetch('Dessert/ubeHalaya.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('ubeHalaya-section').innerHTML = data;
+    });
+
+    // taho-section
+    fetch('Dessert/taho.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('taho-section').innerHTML = data;
+    });
+
+
+// STREETFOOD
+    fetch('Streetfood/streetFoodPage.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('streetfood').innerHTML = data;
+    });
+
+    //balut-section
+    fetch('Streetfood/balut.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('balut-section').innerHTML = data;
+    });
+
+    // isaw-section
+    fetch('Streetfood/isaw.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('isaw-section').innerHTML = data;
+    });
+
+    // kwekKwek section
+    fetch('Streetfood/kwekKwek.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('kwekKwek-section').innerHTML = data;
+    });
+
+    // betamax-section
+    fetch('Streetfood/betamax.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('betamax-section').innerHTML = data;
+    });
+
+    // iceScramble-section
+    fetch('Streetfood/scramble.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('iceScramble-section').innerHTML = data;
+    });
+
+
+// BEVERAGE
+    fetch('Beverage/beveragePage.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('beverage').innerHTML = data;
+    });
+
+    //buko-section
+    fetch('Beverage/buko.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('buko-section').innerHTML = data;
+    });
+
+    // sagotGulaman-section
+    fetch('Beverage/sagotGulaman.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('sagotGulaman-section').innerHTML = data;
+    });
+
+    // kapengBarako ection
+    fetch('Beverage/kapengBarako.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('kapengBarako-section').innerHTML = data;
+    });
+
+    // bukoPandan-section
+    fetch('Beverage/bukoPandan.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('bukoPandan-section').innerHTML = data;
+    });
+
+    // lambanog-section
+    fetch('Beverage/lambanog.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('lambanog-section').innerHTML = data;
+    });
+});
+
+
+
+    // DITO KA MAGSIMULA MYLES
+
+
+// // HULING PART 'TO FOR THE BUTTON
+// // Scroll back to home section when the button is clicked
+//     document.getElementById('backToHome').addEventListener('click', () => {
+//         const homeSection = document.getElementById('home');
+//         const headerHeight = document.querySelector('nav').offsetHeight;
+//         const targetPosition = homeSection.getBoundingClientRect().top + window.pageYOffset - headerHeight;
+
+//         window.scrollTo({
+//             top: targetPosition,
+//             behavior: 'smooth'
+//         });
+//     });

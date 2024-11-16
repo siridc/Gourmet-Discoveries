@@ -1,11 +1,13 @@
-   #mainDish {
-      margin-top: 100px;
+   /* STYLES OF EACH PAGE OF DISHES */
+   #mainDish, #dessert, #streetfood, #beverage {
+      padding-top: 40px;
    }
 
    .heder {
       font: normal 600 6rem "Dancing Script", cursive;
       color: #505316;
       text-align: center;
+      /* margin: 0; */
    }
 
    .caption {
@@ -17,7 +19,7 @@
       font-weight: bold;
    }
 
-   #md {
+   #md, #des, #sf, #bev {
       position: relative;
       display: grid;
       grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -43,9 +45,14 @@
 
    .text-section h1 {
       display: grid;
-      font: normal 500 5.5rem "DM Serif Display", serif;
+      font: normal 500 5rem "DM Serif Display", serif;
       color: #597cff;
       margin: 50px 0 -10px 60px;
+   }
+
+   #twoSection {
+      display: inline !important;
+      
    }
 
    .text-section h2 {
@@ -65,15 +72,15 @@
       text-align: justify;
    }
 
-   .mdRep, .sfRep {
+   .mdRep, .desRep, .sfRep, .bvRep {
       background-color: #ffd230;
-      margin: 250px;
+      margin: 250px 250px 0 250px;
       justify-items: center;
       padding: 150px;
       height: 1800px;
    }
 
-   .whitebg{
+   .whitebg {
       background-color: rgb(249, 242, 242);
       height: 1750px;
       width: 990px;
@@ -104,8 +111,8 @@
    }
 
    .top-photo img {
-      margin-left: 660px;
-      margin-top: 50px;
+      margin-left: 650px;
+      margin-top: 50px; 
       border-radius: 100%;
       width: 200px;
       height: 200px;
@@ -113,7 +120,7 @@
    }
 
    .ingredients {
-      display: flex;
+      display: inline-flex;
       flex-direction: column;
       padding: 2rem 0 0 12rem ;
       font: normal 1.5rem "Open Sans", "serif";
