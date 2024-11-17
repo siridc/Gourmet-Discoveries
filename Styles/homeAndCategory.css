@@ -130,7 +130,7 @@ a:hover {
    height: 390px;
    border-radius: 20px;
    margin-top: 20px;
-   /* position: absolute; */
+   position: relative;
 }
 
 /*FOR NAME OF EACH FOOD*/
@@ -140,11 +140,24 @@ a:hover {
    display: inline-flex;
    justify-content: center;
    text-align: center;
-   justify-content: flex-end;
+   /* justify-content: flex-end; */
    background-color: #FF5757;
-   margin: 5px 72px;
+   /* margin: 5px 72px; */
    padding: 10px 10px;
+   position: absolute;
+   bottom: 0;
+   transform: translateX(80%);
+   border-radius: 5px;
+}
+
+/* old style - DO NOT REMOVE THIS! */
+/* .neym {
+   font: normal 400 1.5rem "Sour Gummy", serif;
+   text-align: center;
+   background-color: #FF5757;
+   margin: 3px 72px;
+   padding: 7px 15px;
    position: absolute;
    top: 385px;
    border-radius: 5px;
-}
+} */

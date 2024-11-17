@@ -220,7 +220,24 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      /* margin-left: 0; */
       font: normal 400 1rem "Arapey", serif;
+   }
+
+   .header {
+      padding: 0 675px;
+      margin-top: 5px;
+      height: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+   }
+
+   .image {
+      margin: 0;
+      padding: 165px 0;
+      height: 50%;
+      display: flex;
+      flex-wrap: wrap;
    }
 }

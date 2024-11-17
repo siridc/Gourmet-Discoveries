@@ -188,19 +188,17 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 
+//ABOUT US
+    fetch('About us/aboutUs.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('aboutUs').innerHTML = data;
+        });
+    
 
-    // DITO KA MAGSIMULA MYLES
-
-
-// // HULING PART 'TO FOR THE BUTTON
-// // Scroll back to home section when the button is clicked
-//     document.getElementById('backToHome').addEventListener('click', () => {
-//         const homeSection = document.getElementById('home');
-//         const headerHeight = document.querySelector('nav').offsetHeight;
-//         const targetPosition = homeSection.getBoundingClientRect().top + window.pageYOffset - headerHeight;
-
-//         window.scrollTo({
-//             top: targetPosition,
-//             behavior: 'smooth'
-//         });
-//     });
+//CONTACT US
+    fetch('About us/feedback.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('feedback').innerHTML = data;
+        });
