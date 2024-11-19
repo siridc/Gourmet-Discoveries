@@ -1,192 +1,45 @@
-
-/* MQ FOR ADOBOO */
-@media (max-width: 768px) {
-   /* #heather {
-      position: static;
-      width: 100%;
-   }
-
-   a {
-      font-size: 0.9rem;
-      padding: 10px;
-   }
-
-   #navLinks {
-      flex-direction: row;
-      gap: 1rem;
-      font-size: 0.8rem;
-   }
-
-   #home {
-      padding-top: 60px;
-      background-size: cover;
-   }
-
-   #name {
-      font-size: 2.5rem;
-      margin-left: 20px;
-      margin-top: 5px;
-   }
-
-   #mabuhay {
-      font-size: 2rem;
-      margin-top: 20px;
-      margin-left: 20px;
-   }
-
-   #category {
-      margin-top: 150px;
-   }
-
-   #sel {
-      font-size: 2.5rem;
-      margin-left: 20px;
-   }
-
-   #wif {
-      font-size: 1rem;
-      margin-right: 20px;
-   }
-
-   #dishes {
-      grid-template-columns: 1fr 1fr;
-      gap: 10px;
-      margin: 0 10px;
-   }
-
-   #md img, #dishes img {
-      width: 100%;
-      height: auto;
-      margin-top: 10px;
-   }
-
-   .neym {
-      font-size: 1rem;
-      margin: 0;
-      padding: 5px;
-   }
-
-   #mainDish {
-      margin-top: 50px;
-   }
-
-   .heder {
-      font-size: 3rem;
-      padding: 0 10px;
-   }
-
-   .caption {
-      font-size: 1rem;
-      margin-right: 10px;
-   }
-
+/*For small screens */
+/* @media (max-width: 480px) {
    #md {
-      grid-template-columns: 1fr 1fr;
-      left: 10px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
    }
-
-   .container {
-      flex-direction: column;
-      align-items: center;
-      margin: 50px 10px;
-   }
-
-   .recipe-photo {
-      width: 100%;
-      height: auto;
-   }
-
-   .text-section h1 {
-      font-size: 2rem;
-      margin: 20px 0;
-      padding: 0;
-   }
-
-   .text-section h2 {
-      font-size: 1.5rem;
-      margin: 10px 0;
-   }
-
-   .text-section p {
-      font-size: 0.9rem;
-      margin: 10px;
-      line-height: 1.2;
-   }
-
-   .mdRep {
-      padding: 50px;
-      height: auto;
-      margin: 20px;
-   }
-
-   .whitebg {
-      width: 100%;
-      height: auto;
-      left: 0;
-   }
-
-   .bungee-regular {
-      font-size: 2rem;
-   }
-
-   .whitebg p,
-   .whitebg h2 {
-      font-size: 1rem;
-      padding: 2rem;
-   }
-
-   .top-photo img {
-      margin-left: 0;
-      margin-top: 20px;
-      width: 150px;
-      height: 150px;
-   }
-
-   .ingredients {
-      padding: 1rem;
-      font-size: 1rem;
-   }
-
-   .vid {
-      margin: 20px;
-   }
-
-   .steplist ul {
-      font-size: 1rem;
-      margin: 20px 0;
-   }
-
-   .steplist p {
-      font-size: 0.8rem;
-      margin: 10px;
-      width: auto;
-   } */
-
-   .mdRep, .desRep, .sfRep, .bevRep {
-      width: auto;
-   
-   }
-    #home {
-      padding-top: 100px;
-      background-image: url("/Pictures/HomePic.png");
-      background-attachment: initial;
-      background-repeat: no-repeat;
-      background-size: 100% 750px;
-   } 
-
-}
-
+} */
+  
 /* For bigger screen^^ */
 @media  (min-width:1920px) {
    #mabuhay p, .name p {
       display: inline-flex;
+      font-size: 10rem;
+      margin-top: 200px;
    }
    #home {
       padding-top: 100px;
       background-image: url("/Pictures/HomePic.png");
       background-attachment: initial;
       background-repeat: no-repeat;
-      background-size: 1920px 750px;
+      background-size: 1920px 1100px;
+   }
+
+   .category {
+      margin-top: 300px;
+   }
+
+   #mainDish, #dessert, #streetFood, #beverage {
+      margin-top: 200px;
+   }
+
+   #md, #des, #sf, #bev {
+      margin-bottom: 300px;
+   }
+
+   #streetfood {
+      margin-top: 200px !important;
+   }
+
+   .container {
+      padding-bottom: 180px;
    }
 
    .category h2 {
@@ -240,4 +93,6 @@
       display: flex;
       flex-wrap: wrap;
    }
+
+   
 }

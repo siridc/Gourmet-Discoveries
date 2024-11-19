@@ -53,9 +53,16 @@
 
    .container1 {
       padding: 100px 0;
-      
       text-align: center;
       display: inline-block;
+   }
+
+   .container1 h2 {
+      font: normal 500 1.7rem "Hammersmith One", sans-serif;
+   }
+
+   .container h5 {
+      font: normal 400 0.8rem "Hammersmith One", sans-serif;
    }
 
   #aboutUs a:active {

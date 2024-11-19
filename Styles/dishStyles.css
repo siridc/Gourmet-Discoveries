@@ -20,10 +20,40 @@
    }
 
    #md, #des, #sf, #bev {
-      position: relative;
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-      left: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+   }
+
+   #md div, #des div, #sf div, #bev div {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 260px;
+    height: 390px; 
+    margin-top: 20px;
+    padding: 0 5px;
+   }
+
+   #md img, #des img, #sf img, #bev img {
+    width: 260px;
+    height: 390px;
+    border-radius: 20px;
+    object-fit: cover;
+   }
+
+   #md .neym, #des .neym, #sf .neym, #bev .neym {
+    font: normal 400 1.2rem "Sour Gummy", serif;
+    background-color: #FF5757;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 10px;
+    position: absolute;
+    top: 350px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
    }
 
    .container {
