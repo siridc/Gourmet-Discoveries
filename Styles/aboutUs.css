@@ -49,6 +49,7 @@
       border-radius: 50%;
       height: 200px;
       justify-content: space-evenly;
+
    }
 
    .container1 {
@@ -58,11 +59,11 @@
    }
 
    .container1 h2 {
-      font: normal 500 1.7rem "Hammersmith One", sans-serif;
+      font: normal 500 2rem "Hammersmith One", sans-serif;
    }
 
-   .container h5 {
-      font: normal 400 0.8rem "Hammersmith One", sans-serif;
+   .container h3 {
+      font: normal 400 1rem "Hammersmith One", sans-serif;
    }
 
   #aboutUs a:active {

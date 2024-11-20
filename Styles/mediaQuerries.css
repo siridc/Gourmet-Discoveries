@@ -1,12 +1,88 @@
 /*For small screens */
-/* @media (max-width: 480px) {
-   #md {
-      display: flex;
+@media (max-width: 480px) {
+   #md, #des, #sf, #bev{
+      /* display: flex;
       flex-wrap: wrap;
-      justify-content: space-evenly;
-   }
-} */
-  
+      justify-content: space-evenly; */
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: 1fr 1fr;
+      padding: 10px 250px ;
+      }
+      #md img, #des img, #sf img, #bev img{
+         margin-top: 50px;
+      }
+
+      #md .neym  #des .neym, #sf .neym, #bev .neym {
+         /* padding: 0 100px; */
+         
+      }
+      #home {
+         padding-top: 100px;
+         background-image: url("/Pictures/HomePic.png");
+         background-attachment: initial;
+         background-repeat: no-repeat;
+         background-size: 1920px 900px;
+         width: fit-content;
+      }
+
+      .category {
+         padding-top: 300px;
+      }
+
+      #mainDish .heder, #dessert .heder, #streetfood .heder, #beverage .heder{
+         display: inline-flex;
+         margin-left: 5em;
+         width: 100%;
+      }
+
+      #mainDish .caption, #dessert .caption, #streetfood .caption, #beverage .caption{
+         display: inline-flex;
+         margin-left: 2em;
+         width: 1200px;
+      }
+
+      .mdRep, .desRep, .sfRep, .bevRep{
+         margin-left: 150px;
+         width: 44.5em;
+      }
+      .whitebg{
+         margin-left: -100px;
+      }
+
+      .top-photo{
+         margin-left: -90px;
+      }
+
+      .header{
+         margin-left: -30px;
+         width: 100px;
+      }
+
+      .sub-container{
+         margin-left: 10px;
+         padding-right: 40px;
+      }
+
+      #feedback{
+         margin-left: 545px;
+         padding-right: 40px;
+      }
+
+      #feedback .img{
+         margin-left: -10px;
+      }
+
+      .form{
+         margin-left: -250px;
+      }
+}
+
+  @media  (min) {
+   
+  }
+
+
 /* For bigger screen^^ */
 @media  (min-width:1920px) {
    #mabuhay p, .name p {
