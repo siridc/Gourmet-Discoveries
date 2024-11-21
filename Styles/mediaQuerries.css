@@ -13,10 +13,12 @@
          margin-top: 50px;
       }
 
-      #md .neym  #des .neym, #sf .neym, #bev .neym {
-         /* padding: 0 100px; */
-         
+      #md .neym,  #des .neym, #sf .neym, #bev .neym {
+         position:relative;
+         margin-top: -390px;
+         left: 85px;
       }
+
       #home {
          padding-top: 100px;
          background-image: url("/Pictures/HomePic.png");
@@ -66,21 +68,19 @@
 
       #feedback{
          margin-left: 545px;
-         padding-right: 40px;
+         padding-right: 20px;
       }
 
-      #feedback .img{
-         margin-left: -10px;
+      .container .img{
+         display: flex;
+         flex-wrap: wrap;
+         bottom: 0;
       }
 
       .form{
          margin-left: -250px;
       }
 }
-
-  @media  (min) {
-   
-  }
 
 
 /* For bigger screen^^ */
@@ -170,5 +170,7 @@
       flex-wrap: wrap;
    }
 
-   
+   #md .neym,  #des .neym, #sf .neym, #bev .neym {
+      font-size: 1rem;
+   }
 }
