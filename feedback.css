@@ -1,0 +1,162 @@
+    #feedback {
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+        font: normal 500 1.8rem "Hammersmith One", sans-serif;
+        display: flex;
+        background-color: #F5F5EF;
+        margin: 0 300px;
+        height: 800px;
+    }
+
+    #feedback .container {
+        display: flex;
+        max-width: 1000px;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        /* right: 0; */
+        box-sizing: border-box;
+    }
+
+    #feedback .container {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        /*width: 100%;
+        height: 100%;
+        flex-wrap: wrap;
+        margin: 0;
+        padding: 100px 0;
+        background-image: url("Pictures/fbackPic.png");
+        background-size: local;
+        background-repeat: no-repeat;    */
+    }
+    
+
+    .form {
+        width: 140%;
+        padding: 30px;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-right: 170px;
+        margin-left: 0;
+        margin: 0px;
+    }
+
+    .text {
+        margin-bottom: 20px;
+    }
+
+    .text h2 {
+        font-size: 30px;
+        font-weight: bold;
+        color: #333;
+        margin-bottom: 10px;
+        margin-left: 190px;
+        align-items: center;
+        padding-right: 30px;
+        text-align: center;
+    }
+
+    .text p {
+        font-size: 14px;
+        color: #666;
+        margin-bottom: 20px;
+        margin-left: 150px;
+    }
+
+    .contact-container h1 {
+        font-size: 16px;
+        color: black;
+        margin-right: 50px;
+        margin-left: 70px;
+
+    }
+
+    .star-rating {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        font-size: 30px;
+        margin-left: 0px;
+    }
+
+    /* Hide radio inputs */
+    .star-rating input {
+        display: none;
+        padding-top: 50p
+    }
+
+    /* Style each star */
+    .star-rating label {
+        font-size: 2em;
+        color: #ccc;
+        cursor: pointer;
+        transition: color 0.2s;
+    }
+
+    /* Hover effect to highlight stars */
+    .star-rating label:hover,
+    .star-rating label:hover ~ label {
+        color: gold;
+    }
+
+    /* Highlight stars on selection */
+    .star-rating input:checked ~ label {
+        color: gold;
+    }
+
+    .contact-container {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+
+    .contact-container p {
+        font-size: 16px;
+        color: #333;
+        margin-bottom: 5px;
+        margin-left: 70px;
+    }
+
+    .contact-inputs {
+        width: 100%;
+        padding: 12px;
+        font-size: 14px;
+        color: #333;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        margin-left: 70px;
+    }
+
+    .contact-container input {
+        width: 100%;
+        height: 60px;
+    }
+
+    .contact-inputs::placeholder {
+        color: #aaa;
+    }
+
+    button[type="submit"] {
+        background-color: gray;
+        color: white;
+        padding: 14px;
+        font-size: 18px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        width: 40%;
+        margin-left: 70px;
+    }
+
+    button[type="submit"]:hover {
+        background-color: #45a049;
+    }

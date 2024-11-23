@@ -1,0 +1,71 @@
+   #aboutUs {
+      padding: 5px;
+   }
+
+   .header {
+      background-color: #4C4ACF;
+      padding: 0 480px;
+      margin-top: 5px;
+      height: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+  }
+  
+  .header h1 {
+      color: white;
+      font: normal 500 1.8rem "Hammersmith One", sans-serif;
+      padding: 25px;
+      display: inline;
+      white-space: nowrap;
+  }
+
+  .sub-container {
+   padding: 5px;
+   margin: 150px 100px 0 100px;
+   height: 1100px;
+   background-color: #F5F5EF;;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: 1fr 1fr 1fr;
+   flex-wrap: wrap;
+   justify-content: center;
+  }
+
+   .teams {
+         /* margin: 0; */
+         padding: 25px;
+         position: relative;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         text-align: center;
+
+   }
+
+   .teams img {
+      border-radius: 50%;
+      height: 200px;
+      justify-content: space-evenly;
+
+   }
+
+   .container1 {
+      padding: 100px 0;
+      text-align: center;
+      display: inline-block;
+   }
+
+   .container1 h2 {
+      font: normal 500 2rem "Hammersmith One", sans-serif;
+   }
+
+   .container h3 {
+      font: normal 400 1rem "Hammersmith One", sans-serif;
+   }
+
+  #aboutUs a:active {
+      color: yellow;
+  }
