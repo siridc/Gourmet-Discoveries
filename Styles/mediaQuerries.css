@@ -33,6 +33,11 @@
          padding-top: 50px;
       }
 
+      #mainDish, #dessert, #streetFood, #beverage{
+         padding-top: 82px;
+         padding-bottom: 500px;
+      }
+
       #mainDish .heder, #dessert .heder, #streetfood .heder, #beverage .heder{
          display: inline-flex;
          margin-left: 5em;

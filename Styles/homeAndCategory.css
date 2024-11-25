@@ -32,13 +32,15 @@ nav {
 
 #navLinks {
    list-style: none;
-   gap: 2rem;
    font-size: 1rem; /*1 rem =16px*/
    justify-content: flex-end;
 }
 
 a:hover {
    color: red;
+   background-color: #ecd8d8;
+   transition: color .2s ease;
+    transition-delay: 0s;   
 }
 
 #home {
