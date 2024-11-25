@@ -1,9 +1,6 @@
 /*For small screens */
 @media (max-width: 480px) {
    #md, #des, #sf, #bev{
-      /* display: flex;
-      flex-wrap: wrap;
-      justify-content: space-evenly; */
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       grid-template-rows: 1fr 1fr;

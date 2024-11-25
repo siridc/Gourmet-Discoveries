@@ -7,7 +7,6 @@
       font: normal 600 6rem "Dancing Script", cursive;
       color: #505316;
       text-align: center;
-      /* margin: 0; */
    }
 
    .caption {
@@ -134,13 +133,11 @@
    .whitebg p{
       font: normal 400 2rem "Port Lligat Slab", serif;
       padding: 6.2rem 0 0 6.25rem;
-
    }
 
    .whitebg h2{
       font: normal 400 2rem "Port Lligat Slab", serif;
       padding: 6.2rem 0 0 6.25rem;
-
    }
 
    .top-photo img {

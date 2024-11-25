@@ -42,14 +42,12 @@
          justify-content: center;
          align-items: center;
          text-align: center;
-
    }
 
    .teams img {
       border-radius: 50%;
       height: 200px;
       justify-content: space-evenly;
-
    }
 
    .container1 {

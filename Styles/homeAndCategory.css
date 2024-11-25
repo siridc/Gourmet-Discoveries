@@ -37,15 +37,6 @@ nav {
    justify-content: flex-end;
 }
 
-/* a {
-   text-decoration: none;
-   color: white;
-   display: block;
-   padding: 15px;
-   font-size: 1rem;
-   color: #304254;
-} */
-
 a:hover {
    color: red;
 }
@@ -89,8 +80,6 @@ a:hover {
 
 #category {
    margin-top: 380px;
-   /*background-color: #F5F5EF;
-   background-size: 1550px 750px; */
 }
 
 .category h2 {
@@ -115,43 +104,7 @@ a:hover {
    grid-template-columns: 1fr 1fr 1fr 1fr;
    left: 60px;
    margin: 0 50px;
-   /* column-gap: 15px;
-   row-gap: 40px; 
-   right: 100px;
-   /* justify-content: space-around; 
-   right: 100px;
-    margin: 0 40px; 
-   background-color: #F5F5EF;*/
 }
-
-/* #dishes img, #md img, #des img, #sf img, #bev img {
-   display: inline;
-   width: 260px;
-   height: 390px;
-   border-radius: 20px;
-   margin-top: 20px;
-   position: relative;
-} */
-
-/* start edit the position here */
-/*category page */
-
-/* #dishes {
-   display: grid;
-   grid-template-columns: 1fr 1fr 1fr 1fr;
-   flex-wrap: wrap;
-   justify-content: space-between;
-}
-
-#dishes img {
-   display: flex;
-   flex-wrap: wrap;
-   align-items:start;
-   width: 260px;
-   height: 390px;
-   border-radius: 20px;
-   margin-top: 20px;
-} */
 
 /* image sa category itu */
 #dishes img {
@@ -164,8 +117,6 @@ a:hover {
    border-radius: 20px;
    margin-top: 20px;
 }
-
-/*FOR NAME OF EACH FOOD*/
 
 /* neym for category */
 #dishes .neym {
@@ -189,26 +140,8 @@ a:hover {
    background-color: #FF5757;
    width: 150px;
    height: 30px;
-   /* display: flex;
-   flex-wrap: wrap; */
    justify-content: space-evenly;
-   /* align-content: center; */
    position: absolute;
    border-radius: 20px;
-   /* transform: translateX(100%); */
-   /* text-align: center; */
    margin: 50px 9px;
 }
-
-
-/* old style - DO NOT REMOVE THIS! */
-/* .neym {
-   font: normal 400 1.5rem "Sour Gummy", serif;
-   text-align: center;
-   background-color: #FF5757;
-   margin: 3px 72px;
-   padding: 7px 15px;
-   position: absolute;
-   top: 385px;
-   border-radius: 5px;
-} */
