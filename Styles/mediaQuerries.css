@@ -1,5 +1,16 @@
 /*For small screens */
 @media (max-width: 480px) {
+
+   nav {
+      position: fixed;
+      z-index: 100;
+   }
+
+   #navLinks {
+      display: flex;
+      font-size: 3rem;
+   }
+
    #md, #des, #sf, #bev{
       display: grid;
       grid-template-columns: repeat(3, 1fr);
@@ -21,8 +32,8 @@
          background-image: url("/Pictures/HomePic.png");
          background-attachment: initial;
          background-repeat: no-repeat;
-         background-size: 1920px 900px;
-         width: fit-content;
+         /* background-size: 1900px 900px; */
+         width: 1337px;
       }
 
       .category{
@@ -54,7 +65,7 @@
          margin-left: 150px;
          width: 44.5em;
       }
-      
+
       .whitebg{
          margin-left: -100px;
       }
