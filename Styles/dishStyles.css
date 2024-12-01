@@ -29,10 +29,6 @@
       transition: 0.5s;
    }
 
-   .recipe-photo img:hover {
-      
-   }
-
    #md div, #des div, #sf div, #bev div {
     position: relative;
     display: flex;
