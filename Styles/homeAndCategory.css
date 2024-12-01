@@ -36,11 +36,11 @@ nav {
    justify-content: flex-end;
 }
 
-a:hover {
+#navLinks a:hover {
    color: red;
    background-color: #ecd8d8;
    transition: color .2s ease;
-    transition-delay: 0s;   
+   transition-delay: 0s;   
 }
 
 #home {
