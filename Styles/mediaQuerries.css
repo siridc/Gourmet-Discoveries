@@ -15,7 +15,7 @@
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       grid-template-rows: 1fr 1fr;
-      padding: 10px 250px ;
+      padding: 10px 250px;
       }
       #md img, #des img, #sf img, #bev img{
          margin-top: 50px;
@@ -38,6 +38,11 @@
 
       .category{
          padding-top: 300px;
+      }
+
+      #dishes img:hover, #md img:hover, #des img:hover, #sf img:hover, #bev img:hover {
+         transform: scale(1.2);
+         transition: 0.5s;
       }
 
       #mainDish section, #dessert section, #streetfood section, #beverage section{
@@ -96,7 +101,7 @@
       }
 
       .form{
-         margin-left: -250px;
+         margin-left: -50px;
       }
 }
 
@@ -114,6 +119,11 @@
       background-attachment: initial;
       background-repeat: no-repeat;
       background-size: 1920px 1100px;
+   }
+
+   #dishes img:hover, #md img:hover, #des img:hover, #sf img:hover, #bev img:hover {
+      transform: scale(1.2);
+      transition: 0.5s;
    }
 
    .category {
