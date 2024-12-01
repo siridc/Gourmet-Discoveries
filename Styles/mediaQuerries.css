@@ -17,189 +17,211 @@
       grid-template-columns: repeat(3, 1fr);
       grid-template-rows: 1fr 1fr;
       padding: 10px 250px;
-      }
-      #md img, #des img, #sf img, #bev img{
-         margin-top: 50px;
+   }
+
+   #md img, #des img, #sf img, #bev img{
+      margin-top: 50px;
+   }
+
+   #md .neym,  #des .neym, #sf .neym, #bev .neym {
+      position:relative;
+      margin-top: -390px;
+      left: 85px;
+   }
+
+   #home {
+      padding-top: 200px;
+      background-image: url("/Pictures/HomePic.png");
+      background-attachment: initial;
+      background-repeat: no-repeat;
+      /* background-size: 1900px 900px; */
+      width: 1337px;
+   }
+
+   .category{
+      padding-top: 300px;
+   }
+
+   #dishes img:hover{
+      transform: scale(1.2);
+      transition: 0.5s;
+   }
+
+   #mainDish section, #dessert section, #streetfood section, #beverage section{
+      padding-top: 50px;
+   }
+
+   #mainDish, #dessert, #streetfood, #beverage{
+      padding-top: 82px;
+      padding-bottom: 500px;
+   }
+
+   #mainDish .heder, #dessert .heder, #streetfood .heder, #beverage .heder{
+      display: inline-flex;
+      margin-left: 5em;
+      width: 100%;
+   }
+
+   #mainDish .caption, #dessert .caption, #streetfood .caption, #beverage .caption{
+      display: inline-flex;
+      margin-left: 2em;
+      width: 1200px;
+   }
+
+   .mdRep, .desRep, .sfRep, .bevRep{
+      margin-left: 150px;
+      width: 44.5em;
+   }
+
+   .whitebg{
+      margin-left: -100px;
+   }
+
+   .top-photo{
+      margin-left: -90px;
+   }
+
+   .header{
+      margin-left: -30px;
+      width: 100px;
+   }
+
+   .sub-container{
+      margin-left: 10px;
+      padding-right: 40px;
+   }
+
+   #feedback{
+      margin-left: 545px;
+      padding-right: 20px;
+   }
+
+   .container .img{
+      display: flex;
+      flex-wrap: wrap;
+      bottom: 0;
+   }
+
+   .form{
+      margin-left: -50px;
+   }
+}
+
+
+/* For bigger screen^^ */
+   @media  (min-width:1920px) {
+      #mabuhay p, .name p {
+         display: inline-flex;
+         /* font-size: 10rem; */
+         margin-top: 200px;
       }
 
-      #md .neym,  #des .neym, #sf .neym, #bev .neym {
-         position:relative;
-         margin-top: -390px;
-         left: 85px;
+      #mabuhay {
+         font-size: 8rem;
       }
 
+      #name {
+         font-size: 9rem;
+      }
       #home {
          padding-top: 100px;
          background-image: url("/Pictures/HomePic.png");
          background-attachment: initial;
          background-repeat: no-repeat;
-         /* background-size: 1900px 900px; */
-         width: 1337px;
+         background-size: 1920px 1100px;
       }
 
-      .category{
-         padding-top: 300px;
-      }
-
-      #dishes img:hover{
+      #dishes img:hover, #md img:hover, #des img:hover, #sf img:hover, #bev img:hover {
          transform: scale(1.2);
          transition: 0.5s;
       }
 
-      #mainDish section, #dessert section, #streetfood section, #beverage section{
-         padding-top: 50px;
+      #navLinks a {
+         display: flex;
+         justify-content: flex-end;
+         font-size: 2rem;
       }
 
-      #mainDish, #dessert, #streetfood, #beverage{
-         padding-top: 82px;
-         padding-bottom: 500px;
+      .category {
+         margin-top: 300px;
       }
 
-      #mainDish .heder, #dessert .heder, #streetfood .heder, #beverage .heder{
+      #mainDish, #dessert, #streetfood, #beverage {
+         margin-top: 200px;
+      }
+
+      #md, #des, #sf, #bev {
+         margin-bottom: 300px;
+      }
+
+      #streetfood {
+         margin-top: 200px !important;
+      }
+
+      .container {
+         padding-bottom: 180px;
+      }
+
+      .category h2 {
          display: inline-flex;
-         margin-left: 5em;
-         width: 100%;
+         justify-content: center;
       }
 
-      #mainDish .caption, #dessert .caption, #streetfood .caption, #beverage .caption{
+      .category h4 {
          display: inline-flex;
-         margin-left: 2em;
-         width: 1200px;
+         justify-content: end;
       }
 
-      .mdRep, .desRep, .sfRep, .bevRep{
-         margin-left: 150px;
-         width: 44.5em;
+      /* HISTORY - PROCEDURE */
+      .top-photo img {
+         left: 200px;
+         justify-content: center;
       }
 
-      .whitebg{
-         margin-left: -100px;
+      .whitebg {
+         width: 1395px;
       }
 
-      .top-photo{
-         margin-left: -90px;
+      .vid iframe {
+         width: 1100px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
       }
 
-      .header{
-         margin-left: -30px;
-         width: 100px;
+      .steplist {
+         display: flex;
+         justify-content: center;
+         align-items: center;  
       }
 
-      .sub-container{
-         margin-left: 10px;
-         padding-right: 40px;
+      .steplist li {
+         font: bold 400 1.2rem "Arapey", serif;
       }
 
-      #feedback{
-         margin-left: 545px;
-         padding-right: 20px;
+      .steplist p {
+         font: normal 400 1.2rem "Arapey", serif;
       }
 
-      .container .img{
+      .header {
+         padding: 0 675px;
+         margin-top: 5px;
+         height: 100px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         position: absolute;
+      }
+
+      .image {
+         margin: 0;
+         padding: 165px 0;
+         height: 50%;
          display: flex;
          flex-wrap: wrap;
-         bottom: 0;
       }
 
-      .form{
-         margin-left: -50px;
+      #md .neym,  #des .neym, #sf .neym, #bev .neym {
+         font-size: 1.2rem;
       }
-}
-
-
-/* For bigger screen^^ */
-@media  (min-width:1920px) {
-   #mabuhay p, .name p {
-      display: inline-flex;
-      font-size: 10rem;
-      margin-top: 200px;
    }
-   #home {
-      padding-top: 100px;
-      background-image: url("/Pictures/HomePic.png");
-      background-attachment: initial;
-      background-repeat: no-repeat;
-      background-size: 1920px 1100px;
-   }
-
-   #dishes img:hover {
-      transform: scale(1.2);
-      transition: 0.5s;
-   }
-
-   .category {
-      margin-top: 300px;
-   }
-
-   #mainDish, #dessert, #streetfood, #beverage {
-      margin-top: 200px;
-   }
-
-   #md, #des, #sf, #bev {
-      margin-bottom: 300px;
-   }
-
-   #streetfood {
-      margin-top: 200px !important;
-   }
-
-   .container {
-      padding-bottom: 180px;
-   }
-
-   .category h2 {
-      display: inline-flex;
-      justify-content: center;
-   }
-
-   .category h4 {
-      display: inline-flex;
-      justify-content: end;
-   }
-
-   /* HISTORY - PROCEDURE */
-   .top-photo img {
-      left: 200px;
-      justify-content: center;
-   }
-
-   .whitebg {
-      width: 1395px;
-   }
-
-   .vid iframe {
-      width: 1100px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-   }
-
-   .steplist {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      font: normal 400 1rem "Arapey", serif;
-   }
-
-   .header {
-      padding: 0 675px;
-      margin-top: 5px;
-      height: 100px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      position: absolute;
-   }
-
-   .image {
-      margin: 0;
-      padding: 165px 0;
-      height: 50%;
-      display: flex;
-      flex-wrap: wrap;
-   }
-
-   #md .neym,  #des .neym, #sf .neym, #bev .neym {
-      font-size: 1rem;
-   }
-}
