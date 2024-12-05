@@ -18,6 +18,10 @@
       font-weight: bold;
    }
 
+   .category {
+      padding-right: 100px;
+   }
+
    #md, #des, #sf, #bev {
     display: flex;
     flex-wrap: wrap;
